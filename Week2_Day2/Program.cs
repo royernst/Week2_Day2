@@ -40,9 +40,25 @@ namespace Week2_Day2
 
             //string[] students = { "Roy", "JD", "Brian", "Kaitie", "Raz", "Monica" };
             //Array.Sort(students);
-            //Console.WriteLine(students[0] + "  \n" + students[5]);
+            //Console.WriteLine(students[0] + " \n" + students[5]);
 
+            for ( int i = 0; i <= 10; i += 2 )
+            {
+                //Console.WriteLine(i);
+            }
 
+            for (int counter = 50; counter <= 100; counter++)
+            {
+               // Console.WriteLine(counter);
+            }
+
+            string greetings = "My name is Roy";
+            string[] words = greetings.Split();
+
+            for(int i = 0; i < words.Length; i++)
+            {
+                Console.WriteLine(words[i]);
+            }
         }
     }
 }
