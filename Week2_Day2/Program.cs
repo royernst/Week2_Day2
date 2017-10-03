@@ -42,22 +42,57 @@ namespace Week2_Day2
             //Array.Sort(students);
             //Console.WriteLine(students[0] + " \n" + students[5]);
 
-            for ( int i = 0; i <= 10; i += 2 )
-            {
-                //Console.WriteLine(i);
-            }
+            //for ( int i = 0; i <= 10; i += 2 )
+            //{
+            //    //Console.WriteLine(i);
+            //}
 
-            for (int counter = 50; counter <= 100; counter++)
-            {
-               // Console.WriteLine(counter);
-            }
+            //for (int counter = 50; counter <= 100; counter++)
+            //{
+            //   // Console.WriteLine(counter);
+            //}
 
-            string greetings = "My name is Roy";
-            string[] words = greetings.Split();
+            //string greetings = "My name is Roy";
+            //string[] words = greetings.Split();
 
-            for(int i = 0; i < words.Length; i++)
+            //for(int i = 0; i < words.Length; i++)
+            //{
+            //    Console.WriteLine(words[i]);
+            //}
+
+            //for( int i = 1; i <= 10; i ++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //for( int counter = 0; counter <= 500; counter += 2)
+            //{
+            //    Console.WriteLine(counter);
+            //}
+
+            //string greeting = "My name is Little Bill";
+            //string[] words = greeting.Split();
+
+            ////Console.WriteLine(words[0]);
+
+            //for (int i = 0; i < words.Length;)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //string week = "Monday Tuesday Wednesday";
+            //string[] days = week.Split();
+            //for(int i = 0; i < days.Length; i++)
+            //{
+            //    Console.WriteLine(days[i]);
+            //}
+
+            string story = "Once upon a time";
+            string[] storyWords = story.Split();
+            Array.Reverse(storyWords);
+            for (int i = 0; i < storyWords.Length; i++)
             {
-                Console.WriteLine(words[i]);
+                Console.WriteLine(storyWords[i]);
             }
         }
     }
