@@ -8,6 +8,7 @@ namespace Week2_Day2
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             //int arraySize = int.Parse(Console.ReadLine());
@@ -82,18 +83,38 @@ namespace Week2_Day2
 
             //string week = "Monday Tuesday Wednesday";
             //string[] days = week.Split();
-            //for(int i = 0; i < days.Length; i++)
+            //for (int i = 0; i < days.Length; i++)
             //{
             //    Console.WriteLine(days[i]);
             //}
 
-            string story = "Once upon a time";
-            string[] storyWords = story.Split();
-            Array.Reverse(storyWords);
-            for (int i = 0; i < storyWords.Length; i++)
-            {
-                Console.WriteLine(storyWords[i]);
-            }
+            //string story = "Once upon a time";
+            //string[] storyWords = story.Split();
+            //Array.Reverse(storyWords);
+            //for (int i = 0; i < storyWords.Length; i++)
+            //{
+            //    Console.WriteLine(storyWords[i]);
+            //}
+
+            //string year = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec";
+            //string[] months = year.Split();
+
+            //foreach (string month in months)
+            //{
+            //    Console.WriteLine(month);
+            //}
+
+            //int number = 2;
+            //int[] test = new int[number];
+            //test[0] = 1;
+            //test[1] = 1;
+            //test[number] = number;
+            //foreach (int section in test)
+            //{
+            //    Console.WriteLine(number);
+            //    number++;
+            //}
+
         }
     }
 }
