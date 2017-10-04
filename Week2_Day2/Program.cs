@@ -129,19 +129,47 @@ namespace Week2_Day2
             //    playAgain = Console.ReadLine().ToUpper();
             //}
 
-            Console.WriteLine("Would you like to check the patient in for their appointment? Enter Yes/No");
-            string answer = Console.ReadLine().ToLower();
-            while (answer == "yes" || answer == "y")
+            //Console.WriteLine("Would you like to check the patient in for their appointment? Enter Yes/No");
+            //string answer = Console.ReadLine().ToLower();
+            //while (answer == "yes" || answer == "y")
+            //{
+            //    Console.WriteLine("PATIENT CHECK-IN SYSTEM");
+            //    Console.WriteLine("Please enter patient's full name:");
+            //    string fullName = Console.ReadLine();
+            //    Console.WriteLine("Please enter patient's 6-digit patient ID:");
+            //    string patientID = Console.ReadLine();
+            //    Console.WriteLine("Please enter client's appointment time:");
+            //    string appointmentTime = Console.ReadLine();
+            //    Console.WriteLine("Would you like to check another patient in for their appointment? Enter Yes/No");
+            //    answer = Console.ReadLine().ToLower();
+            //}
+
+            //string playAgain;
+            //do
+            //{
+            //    Console.WriteLine("Do you want to play the game? (YES/NO)");
+
+            //}
+
+
+            //string classAdd;
+            //do
+            //{
+            //    Console.WriteLine("What class would you like to add?");
+            //    string classInput = Console.ReadLine();
+            //    Console.WriteLine("What was the letter grade for that class? (No + or - grades)");
+            //    string classGrade = Console.ReadLine();
+            //    Console.WriteLine("Do you have another class you would like to add? (Yes/No)");
+            //    classAdd = Console.ReadLine().ToLower();
+            //} while (classAdd == "yes");
+
+            for (int i = 1; i <= 20; i ++)
             {
-                Console.WriteLine("PATIENT CHECK-IN SYSTEM");
-                Console.WriteLine("Please enter patient's full name:");
-                string fullName = Console.ReadLine();
-                Console.WriteLine("Please enter patient's 6-digit patient ID:");
-                string patientID = Console.ReadLine();
-                Console.WriteLine("Please enter client's appointment time:");
-                string appointmentTime = Console.ReadLine();
-                Console.WriteLine("Would you like to check another patient in for their appointment? Enter Yes/No");
-                answer = Console.ReadLine().ToLower();
+                if (i % 2 != 0)
+                {
+                    continue;
+                }
+                Console.WriteLine(i);
             }
         }
     }
