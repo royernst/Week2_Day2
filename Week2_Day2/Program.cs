@@ -115,6 +115,34 @@ namespace Week2_Day2
             //    number++;
             //}
 
+            //for (int i = 10; i > 0; i--)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //Console.WriteLine("Do you want to play the game? (YES/NO)");
+            //string playAgain = Console.ReadLine().ToUpper();
+            //while (playAgain == "YES")
+            //{
+            //    Console.WriteLine("It's a rematch!");
+            //    Console.WriteLine("Do you want to play again? (YES/NO)");
+            //    playAgain = Console.ReadLine().ToUpper();
+            //}
+
+            Console.WriteLine("Would you like to check the patient in for their appointment? Enter Yes/No");
+            string answer = Console.ReadLine().ToLower();
+            while (answer == "yes" || answer == "y")
+            {
+                Console.WriteLine("PATIENT CHECK-IN SYSTEM");
+                Console.WriteLine("Please enter patient's full name:");
+                string fullName = Console.ReadLine();
+                Console.WriteLine("Please enter patient's 6-digit patient ID:");
+                string patientID = Console.ReadLine();
+                Console.WriteLine("Please enter client's appointment time:");
+                string appointmentTime = Console.ReadLine();
+                Console.WriteLine("Would you like to check another patient in for their appointment? Enter Yes/No");
+                answer = Console.ReadLine().ToLower();
+            }
         }
     }
 }
