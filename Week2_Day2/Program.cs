@@ -163,13 +163,47 @@ namespace Week2_Day2
             //    classAdd = Console.ReadLine().ToLower();
             //} while (classAdd == "yes");
 
-            for (int i = 1; i <= 20; i ++)
+            //for (int i = 1; i <= 20; i ++)
+            //{
+            //    if (i % 2 != 0)
+            //    {
+            //        continue;
+            //        break;
+            //    }
+            //    Console.WriteLine(i);
+            //}
+
+            //for (int i = 1; i <= 2; i++)
+            //{
+            //    for (int j = 1; j <= 4; j++)
+            //    {
+            //        Console.Write(j); // columns
+            //    }
+            //    Console.WriteLine(); // next row
+            //}
+
+            //count to 1 million
+            //for (int i = 1; i <= 100; i++)
+            //{
+            //    for (int j = 1; j <= 100; j++)
+            //    {
+            //        for (int k = 1; k <= 100; k++)
+            //        {
+            //            Console.Write(k);
+            //        }
+            //        Console.WriteLine();
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            int n = int.Parse(Console.ReadLine());
+            for (int row = 1; row <= n; row++)
             {
-                if (i % 2 != 0)
+                for (int col = 1; col <= row; col++)
                 {
-                    continue;
+                    Console.Write(col + " ");
                 }
-                Console.WriteLine(i);
+                Console.WriteLine();
             }
         }
     }
